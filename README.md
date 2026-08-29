@@ -1,5 +1,28 @@
-# TeacherToolbox
-The TeacherToolbox is a software designed for teachers to manage students and assist in teaching and research.
+# 班主任智能工作台 · 桌面端发布仓库
 
-# TeacherToolbox 发布仓库
-班主任智能工作台桌面端安装包发布仓库（仅存放 Release 资产，源码不在此仓库）。
+> 本仓库仅用于存放桌面端安装包与更新元数据（GitHub Releases），**不含源码**。
+
+## 下载安装
+
+- 前往 **[Releases](https://github.com/EthenWillson/TeacherToolbox/releases)** 页面下载最新版安装包
+- Windows：下载 `班主任智能工作台-<版本>-setup.exe`，双击安装
+- macOS：下载 dmg / zip 安装包
+
+## 自动更新机制
+
+| 环节 | 说明 |
+|------|------|
+| 更新检查 | 应用启动时向云端检查接口查询新版本（版本、灰度比例、是否强制、更新说明由服务端控制） |
+| 下载方式 | 通过本仓库 Releases 资产差分下载（blockmap），仅下载增量部分，省流量 |
+| 安装方式 | Windows 自动下载并安装；macOS 暂不支持自动更新（需开发者证书），请手动下载 |
+
+## 常见问题
+
+- **激活码区分大小写**，请按发放时的原样输入；未激活无法注册账号、无法同步云端数据
+- **云端容量**：每个账号有独立存储额度，超限时仅拦截新写入，存量数据不受影响，删除冗余数据后自动恢复
+- **离线模式**：数据仅存本地，不访问云端；离线模式暂不支持上传照片/文件
+- **实时同步**：同一账号 Web 端与桌面端数据实时互通
+
+## 版本历史
+
+- **v1.0.0** — 首个正式版：激活码注册、云端容量配额、桌面端自动更新、多端实时同步
