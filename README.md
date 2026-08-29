@@ -1,6 +1,7 @@
 # 班主任智能工作台 · 桌面端发布仓库
 
 > 本仓库仅用于存放桌面端安装包与更新元数据（GitHub Releases），**不含源码**。
+> 联系作者：Ethen.jw.chen@outlook.com
 
 ## 下载安装
 
