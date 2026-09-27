@@ -12,7 +12,7 @@
 
 ## 下载安装
 
-- 前往 **[Releases](https://github.com/EthenWillson/TeacherToolbox/releases)** 页面下载最新版安装包
+- 前往 **[Releases](https://github.com/EthenWillson/TeacherToolbox/releases)** 页面下载最新版安装包，登录界面数据库地址填写网页端域名：https://teachertoolbox.dpdns.org/
 - 网页端：https://teachertoolbox.dpdns.org/
 - Windows：下载 `TeacherToolbox-<版本>-setup.exe`，双击安装
 - macOS：下载 dmg / zip 安装包
