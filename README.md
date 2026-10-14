@@ -6,7 +6,7 @@
 
 > 面向中小学班主任的一体化班级管理工作台 —— 一个系统，覆盖班级事务、学生成长、家校沟通与数据沉淀，Web / 移动端 / 桌面端三端数据实时同步。
 
-![version](https://img.shields.io/badge/version-1.1.1-blue)
+![version](https://img.shields.io/badge/version-1.2.0-blue)
 ![platform](https://img.shields.io/badge/platform-Web%20%7C%20Mobile%20%7C%20Desktop-green)
 ![stack](https://img.shields.io/badge/stack-React%20%2B%20Cloudflare%20%2B%20Electron-orange)
 
